@@ -1,0 +1,86 @@
+# Translation of Themes - Biker in English (Australia)
+# This file is distributed under the same license as the Themes - Biker package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-15 02:04:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_AU\n"
+"Project-Id-Version: Themes - Biker\n"
+
+#. Description of the plugin/theme
+msgid "Biker is a theme not just for bikers, biker is cusmomizable theme: it has custom colors for link, headings, menus, widgets and sidebars, custom header, 2 custom backgrounds, 3 nav menus, slider and other options. Biker looks unusual due to transparency of elements, transparency can be changed too. This is a responsive theme, it uses Jolene as the parent theme. Translation ready and has Russian translation. You can find more info and 5 demo websites at http://wpblogs.ru/themes/blog/theme/biker/."
+msgstr "Biker is a theme not just for bikers, biker is customisable theme: it has custom colours for link, headings, menus, widgets and sidebars, custom header, 2 custom backgrounds, 3 nav menus, slider and other options. Biker looks unusual due to transparency of elements, transparency can be changed too. This is a responsive theme, it uses Jolene as the parent theme. Translation ready and has Russian translation. You can find more info and 5 demo websites at http://wpblogs.ru/themes/blog/theme/biker/."
+
+#. #-#-#-#-#  biker.pot (Biker 1.2)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/customize.php:267
+msgid "Biker"
+msgstr "Biker"
+
+#: inc/customize.php:54
+msgid "Bottom"
+msgstr "Bottom"
+
+#: inc/customize.php:53
+msgid "Center"
+msgstr "Centre"
+
+#: inc/customize.php:52
+msgid "Top"
+msgstr "Top"
+
+#: inc/customize.php:22
+msgid "Opacity for menus and other elements"
+msgstr "Opacity for menus and other elements"
+
+#: inc/customize.php:47
+msgid "Vertical position"
+msgstr "Vertical position"
+
+#: functions.php:172
+msgid "Search"
+msgstr "Search"
+
+#: functions.php:171
+msgid "Recent Posts"
+msgstr "Recent Posts"
+
+#: functions.php:170
+msgid "Calendar"
+msgstr "Calendar"
+
+#. translators: To add an additional Open Sans character subset specific to
+#. your language,	 translate this to 'greek', 'cyrillic' or 'vietnamese'. Do
+#. not translate into your own language.
+#: functions.php:111
+msgctxt "Font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. by Open Sans fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:104
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:39
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: functions.php:35
+msgid "First Top Menu"
+msgstr "First Top Menu"
+
+#: functions.php:37
+msgid "Second Top Menu"
+msgstr "Second Top Menu"
+
+#. Author of the plugin/theme
+msgid "Cats_456"
+msgstr "Cats_456"

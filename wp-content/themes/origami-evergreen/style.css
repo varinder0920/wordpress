@@ -1,0 +1,292 @@
+/*
+Theme Name: Origami Evergreen
+Theme URI: http://siteorigin.com/theme/origami/
+Description: Origami Evergreen is an Origami child theme that gives Origami a unique, earthy feel. It'd work great for green and organic brands. Just like Origami it's responsive and because of its Page Builder integration - you can use it for anything from a simple photo blog to a full business website.
+Author: SiteOrigin
+Author URI: http://siteorigin.com
+Template: origami
+Version: 1.0
+Tags: brown, light, yellow, one-column, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, post-formats, theme-options, threaded-comments, translation-ready, photoblogging
+*/
+#page-container {
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+  border: none;
+  margin-bottom: 0;
+  padding: 30px 3.5%;
+  background: #fbf9f5;
+}
+#main-menu-wrapper > div > ul {
+  margin-bottom: -30px;
+  margin-top: 30px;
+  background: #8ca354;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #6e8739), color-stop(1, #8ca354));
+  background: -ms-linear-gradient(bottom, #6e8739, #8ca354);
+  background: -moz-linear-gradient(center bottom, #6e8739 0%, #8ca354 100%);
+  background: -o-linear-gradient(#8ca354, #6e8739);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8ca354', endColorstr='#6e8739', GradientType=0);
+  -webkit-border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 6px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), inset 0 -1px 0 rgba(0,0,0,0.1);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), inset 0 -1px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), inset 0 -1px 0 rgba(0,0,0,0.1);
+  border-top: 1px solid #758c3e;
+  border-left: 1px solid #688234;
+  border-right: 1px solid #688234;
+  zoom: 1;
+}
+#main-menu-wrapper > div > ul:before {
+  content: '';
+  display: block;
+}
+#main-menu-wrapper > div > ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#main-menu-wrapper > div > ul > li {
+  display: block;
+  float: left;
+  position: relative;
+}
+#main-menu-wrapper > div > ul > li .dropdown-icon {
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  background: url(./images/down-icon.png);
+  float: right;
+  margin: 3px 0 0 12px;
+}
+#main-menu-wrapper > div > ul > li a {
+  display: inline-block;
+  padding: 18px 25px;
+  color: #324906;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.375);
+  -webkit-transition: color 0.35s ease;
+  -moz-transition: color 0.35s ease;
+  -o-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+}
+#main-menu-wrapper > div > ul > li > a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -1px;
+  height: 100%;
+  width: 2px;
+  background: url(images/menu-sep.png) repeat;
+}
+#main-menu-wrapper > div > ul > li ul {
+  display: none;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 10;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 50%;
+  margin-left: -100px;
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+#main-menu-wrapper > div > ul > li ul ul {
+  top: 0;
+  left: 100%;
+  margin-left: 0px;
+}
+#main-menu-wrapper > div > ul > li:hover > a {
+  color: #1f3700;
+}
+#main-menu-wrapper > div > ul > li:hover > ul {
+  display: block;
+}
+#main-menu-wrapper > div > ul > li li {
+  float: none;
+  position: relative;
+  background: #565147 url(./images/footer-bg.png);
+  -webkit-box-shadow: inset 0 1px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: inset 0 1px 0px rgba(0,0,0,0.15);
+  box-shadow: inset 0 1px 0px rgba(0,0,0,0.15);
+  font-size: 12px;
+  font-weight: 500;
+}
+#main-menu-wrapper > div > ul > li li a {
+  color: #e0d9ce;
+  padding: 18px 15px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+#main-menu-wrapper > div > ul > li li:hover {
+  background: #625e53;
+}
+#main-menu-wrapper > div > ul > li li:hover a {
+  display: block;
+}
+#main-menu-wrapper > div > ul > li li:hover > ul {
+  display: block;
+}
+#main-menu-wrapper > div > ul > li:first-child a {
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 6px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#origami-evergreen-wrapper {
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 5px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#logo {
+  margin: 30px 0;
+}
+#logo h1 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  color: #403b32;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+#logo h3 {
+  color: #635d55;
+}
+.post .post-info {
+  color: #a49e94;
+}
+.post .post-info a {
+  color: #5d5953;
+}
+.post .below-content {
+  background: url(./images/menu-bg.png);
+  border-color: #d5c9bf;
+}
+.post .featured-image {
+  margin-bottom: 25px;
+  line-height: 0;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+.post .content p {
+  color: #635d55;
+}
+.post .content a {
+  color: #87a55a;
+}
+#comments h3.comments-title {
+  color: #575249;
+}
+#comments .comment-container .info .author {
+  color: #575249;
+}
+#comments .comment-container .info .date {
+  color: #a49e94;
+}
+#comments .comment-content {
+  color: #635d55;
+}
+#respond #reply-title {
+  color: #575249;
+}
+#respond .form-allowed-tags,
+#respond .logged-in-as,
+#respond .comment-notes {
+  color: #a49e94;
+  font-size: 11px;
+}
+h1.entry-title,
+h1.archive-title,
+#footer-widgets h2.widgettitle {
+  font-family: "Helvetica Neue";
+  font-weight: 200;
+}
+h1.entry-title,
+h1.archive-title {
+  color: #575249;
+  font-size: 28px;
+  margin-top: 0;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+h1.entry-title a,
+h1.archive-title a {
+  color: inherit;
+}
+#footer-widgets {
+  margin-top: 0;
+  margin-bottom: 30px;
+  background: #544f45 url(./images/footer-bg.png);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 12px;
+  font-weight: 500;
+}
+#footer-widgets #footer-widgets-wrapper {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+}
+#footer-widgets #footer-widgets-wrapper .widget {
+  color: #a19d93;
+}
+#footer-widgets #footer-widgets-wrapper .widget a {
+  color: #bab6ab;
+  -webkit-transition: color 0.35s ease;
+  -moz-transition: color 0.35s ease;
+  -o-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+}
+#footer-widgets #footer-widgets-wrapper .widget a:hover {
+  color: #87a55a;
+}
+#footer-widgets h2.widgettitle {
+  font-size: 17px;
+  color: #d3d0c5;
+}
+#footer .copyright {
+  color: #544f45;
+}

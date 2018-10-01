@@ -1,0 +1,40 @@
+# Translation of Themes - Fourteenpress in English (Australia)
+# This file is distributed under the same license as the Themes - Fourteenpress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-26 23:52:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_AU\n"
+"Project-Id-Version: Themes - Fourteenpress\n"
+
+#. Description of the plugin/theme
+msgid "Fourteenpress is a Twenty Fourteen child theme. This theme turns Twenty Fourteen into a blog theme by changing its default layouts. It allows you to create a responsive website with a sleek design easily."
+msgstr "Fourteenpress is a Twenty Fourteen child theme. This theme turns Twenty Fourteen into a blog theme by changing its default layouts. It allows you to create a responsive website with a sleek design easily."
+
+#. Theme Name of the plugin/theme
+msgid "Fourteenpress"
+msgstr "Fourteenpress"
+
+#: functions.php:38
+msgid "Sticky"
+msgstr "Sticky"
+
+#: functions.php:21
+msgid "%s WordPress theme by <a href=\"%s\">noorsplugin</a>"
+msgstr "%s WordPress theme by <a href=\"%s\">noorsplugin</a>"
+
+#. Theme URI of the plugin/theme
+msgid "https://noorsplugin.com/"
+msgstr "https://noorsplugin.com/"
+
+#. Author of the plugin/theme
+msgid "Noor Alam"
+msgstr "Noor Alam"
+
+#. Author URI of the plugin/theme
+msgid "https://noorsplugin.com/fourteenpress/"
+msgstr "https://noorsplugin.com/fourteenpress/"

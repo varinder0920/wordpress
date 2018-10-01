@@ -1,0 +1,31 @@
+# Translation of Origami Evergreen in English (Australia)
+# This file is distributed under the same license as the Origami Evergreen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-11 11:53:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Origami Evergreen\n"
+
+#. Theme Name of the plugin/theme
+msgid "Origami Evergreen"
+msgstr "Origami Evergreen"
+
+#. Description of the plugin/theme
+msgid "Origami Evergreen is an Origami child theme that gives Origami a unique, earthy feel. It'd work great for green and organic brands. Just like Origami it's responsive and because of its Page Builder integration - you can use it for anything from a simple photo blog to a full business website."
+msgstr "Origami Evergreen is an Origami child theme that gives Origami a unique, earthy feel. It'd work great for green and organic brands. Just like Origami it's responsive and because of its Page Builder integration - you can use it for anything from a simple photo blog to a full business website."
+
+#. Theme URI of the plugin/theme
+msgid "http://siteorigin.com/theme/origami/"
+msgstr "http://siteorigin.com/theme/origami/"
+
+#. Author of the plugin/theme
+msgid "SiteOrigin"
+msgstr "SiteOrigin"
+
+#. Author URI of the plugin/theme
+msgid "http://siteorigin.com"
+msgstr "http://siteorigin.com"

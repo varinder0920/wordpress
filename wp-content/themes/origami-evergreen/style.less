@@ -1,0 +1,276 @@
+/*
+Theme Name: Origami Evergreen
+Theme URI: http://siteorigin.com/theme/origami/
+Description: Origami Evergreen is an Origami child theme that gives Origami a unique, earthy feel. It'd work great for green and organic brands. Just like Origami it's responsive and because of its Page Builder integration - you can use it for anything from a simple photo blog to a full business website.
+Author: SiteOrigin
+Author URI: http://siteorigin.com
+Template: origami
+Version: 1.0
+Tags: brown, light, yellow, one-column, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, post-formats, theme-options, threaded-comments, translation-ready, photoblogging
+*/
+
+@import "mixins";
+
+#page-container {
+	.box-shadow(~"inset 0 1px 2px rgba(0,0,0,0.2)");
+	border:none;
+	margin-bottom: 0;
+	padding: 30px 3.5%;
+	background: #fbf9f5;
+}
+
+#main-menu-wrapper {
+	> div > ul {
+		margin-bottom: -30px;
+		margin-top: 30px;
+		.gradient(#8ca354, #6e8739, #8ca354);
+		.border-radius(6px, 0px, 0px, 6px);
+
+		.box-shadow(~"inset 0 1px 0 rgba(255,255,255,0.25), inset 0 -1px 0 rgba(0,0,0,0.1)");
+
+		border-top: 1px solid #758c3e;
+		border-left: 1px solid #688234;
+		border-right: 1px solid #688234;
+		.clearfix();
+
+		> li {
+			display: block;
+			float: left;
+			position: relative;
+
+			.dropdown-icon {
+				display: inline-block;
+				width: 11px;
+				height: 7px;
+				background: url(./images/down-icon.png);
+				float: right;
+				margin: 3px 0 0 12px;
+			}
+
+			a {
+				display: inline-block;
+				padding: 18px 25px;
+				color: #324906;
+				font-weight: bold;
+				text-decoration: none;
+				position: relative;
+				text-shadow: 0 1px 0 rgba(255,255,255,0.375);
+				.transition(0.35s, color);
+			}
+
+			> a:before{
+				content: '';
+				position: absolute;
+				top: 0;
+				right:-1px;
+				height: 100%;
+				width: 2px;
+				background: url(images/menu-sep.png) repeat;
+			}
+
+			ul {
+				display: none;
+				.box-sizing(border-box);
+				z-index: 10;
+				position: absolute;
+				width: 200px;
+
+				top: 100%;
+				left: 50%;
+				margin-left: -100px;
+				.box-shadow(~"0 2px 2px rgba(0,0,0,0.1)");
+
+				ul {
+					top: 0;
+					left: 100%;
+					margin-left: 0px;
+				}
+			}
+
+			&:hover {
+				> a {
+					color: #1f3700;
+				}
+
+				> ul {
+					display: block;
+				}
+			}
+
+			li {
+				float: none;
+				position: relative;
+				background: #565147 url(./images/footer-bg.png);
+				.box-shadow(~"inset 0 1px 0px rgba(0,0,0,0.15)");
+				font-size: 12px;
+				font-weight: 500;
+
+				a {
+					color: #e0d9ce;
+					padding: 18px 15px;
+					text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+				}
+			}
+
+			li:hover {
+				background: #625e53;
+				a {
+					display: block;
+				}
+
+				> ul {
+					display: block;
+				}
+			}
+		}
+
+		> li:first-child a{
+			.border-radius(0px, 0px, 0px, 6px);
+		}
+	}
+}
+
+#origami-evergreen-wrapper {
+	.box-shadow(~"0 2px 10px rgba(0,0,0,0.35)");
+	.border-radius(5px, 0px, 0px, 5px);
+}
+
+#logo {
+	margin: 30px 0;
+	h1 {
+		font-family: "Roboto Slab", sans-serif;
+		font-weight: 400;
+		font-size: 38px;
+		color: #403b32;
+		text-shadow: 0 1px 0 rgba(255,255,255,0.35);
+	}
+
+	h3 {
+		color: #635d55;
+	}
+}
+
+.post {
+	.post-info {
+		color: #a49e94;
+
+		a {
+			color: #5d5953;
+		}
+	}
+
+	.below-content {
+		background: url(./images/menu-bg.png);
+		border-color: #d5c9bf;
+	}
+
+	.featured-image {
+		margin-bottom: 25px;
+		line-height: 0;
+		.box-shadow(~"0 1px 2px rgba(0,0,0,0.15)");
+	}
+
+	.content {
+		p{
+			color: #635d55;
+		}
+
+		a {
+			color: #87a55a;
+		}
+	}
+}
+
+#comments {
+	h3.comments-title {
+		color: #575249;
+	}
+
+	.comment-container .info {
+		.author {
+			color: #575249;
+		}
+
+		.date {
+			color: #a49e94;
+		}
+	}
+
+	.comment-content {
+		color: #635d55;
+	}
+}
+
+#respond #reply-title {
+	color: #575249;
+}
+
+#respond{
+	.form-allowed-tags,
+	.logged-in-as,
+	.comment-notes{
+		color: #a49e94;
+		font-size: 11px;
+	}
+}
+
+h1.entry-title,
+h1.archive-title,
+#footer-widgets h2.widgettitle{
+	font-family: "Helvetica Neue";
+	font-weight: 200;
+}
+
+h1.entry-title,
+h1.archive-title {
+	color: #575249;
+	font-size: 28px;
+	margin-top: 0;
+	text-shadow: 0 1px 0 #FFFFFF;
+
+	a {
+		color: inherit;
+	}
+}
+
+#footer-widgets {
+	margin-top: 0;
+	margin-bottom: 30px;
+	background: #544f45 url(./images/footer-bg.png);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 12px;
+	font-weight: 500;
+
+	#footer-widgets-wrapper {
+
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-left: 3.5%;
+		padding-right: 3.5%;
+
+		.widget {
+			color: #a19d93;
+
+			a {
+				color: #bab6ab;
+				.transition(0.35s, color);
+
+				&:hover {
+					color: #87a55a;
+				}
+			}
+		}
+	}
+
+	h2.widgettitle {
+		font-size: 17px;
+		color: #d3d0c5;
+	}
+}
+
+#footer {
+	.copyright {
+		color: #544f45;
+	}
+}

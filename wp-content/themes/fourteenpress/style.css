@@ -1,0 +1,72 @@
+/*
+Theme Name:   Fourteenpress
+Theme URI:    https://noorsplugin.com/
+Description:  Fourteenpress is a Twenty Fourteen child theme. This theme turns Twenty Fourteen into a blog theme by changing its default layouts. It allows you to create a responsive website with a sleek design easily.
+Author:       Noor Alam
+Author URI:   https://noorsplugin.com/fourteenpress/
+Template:     twentyfourteen
+Version:      0.7
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         blog, news, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain:  fourteenpress
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+@media screen and (min-width: 783px) {
+    .primary-navigation {
+        float: right;
+        margin-left: 20px;
+    }
+}
+.site {
+    margin: 0 auto;
+}
+@media screen and (min-width: 1110px) {
+    .archive-header,
+    .comments-area,
+    .image-navigation,
+    .page-header,
+    .page-content,
+    .post-navigation,
+    .site-content .entry-header,
+    .site-content .entry-content,
+    .site-content .entry-summary,
+    .site-content footer.entry-meta {
+        padding-left: 55px;
+    }
+}
+.site-content .entry-header,
+.site-content .entry-content,
+.site-content .entry-summary,
+.site-content .entry-meta,
+.page-content {
+    max-width: 874px;
+}
+
+.comments-area {
+    max-width: 874px;
+}
+
+.post-navigation, .image-navigation {
+    max-width: 874px;
+}
+
+.site:before,
+#secondary {
+    width: 0;
+    display: none;
+}
+
+.featured-content {
+    padding-left: 0;
+}
+
+.site-content, .site-main .widecolumn {
+    margin-left: 0;
+}  
+
+.hentry {
+    max-width: 900px;
+}  
